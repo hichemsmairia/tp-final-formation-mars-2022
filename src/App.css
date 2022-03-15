@@ -25,7 +25,7 @@ body{
   display: flex;
   justify-content: space-between;
   top: 28px;
-  left: 56px;
+  left: 15px;
 }
 
 .Header a{
@@ -37,7 +37,23 @@ body{
   padding: 8px 10px;
   text-decoration: none;
   border-radius: 3px;
+
 }
+
+.Header li {
+
+
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+.Header img {
+  height: 75px;
+  width: 120px;
+}
+
+
 
 .Main{
 
