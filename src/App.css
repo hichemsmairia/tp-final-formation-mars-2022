@@ -53,16 +53,17 @@ body {
 
 .MainMovies {
   padding-top: 108px;
-  height: 60vh;
+  height: fit-content; /*   hauteur suffisant pour le contenu                  */
   background-color: black;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
 }
 .Main {
   padding-top: 108px;
-  height: 90vh;
+  height: 100vh;
   background: url(./assets/bg.jpg) center;
   display: flex;
   align-items: center;
@@ -80,6 +81,8 @@ body {
   z-index: 1;
   display: grid;
   justify-items: center;
+    color : white;
+
 }
 
 .Main-Child span {
@@ -150,14 +153,19 @@ body {
 .Section-Text h1,
 p {
   padding: 20px 20px;
+  color : white;
 }
 
 .Section-Text p {
   font-size: 26px;
+    color : white;
+
 }
 
 .Section-Text h1 {
   font-size: 50px;
+    color : white;
+
 }
 
 .Grid {
